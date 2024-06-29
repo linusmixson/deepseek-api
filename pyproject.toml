@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "deepseek-api"
+version = "0.1.0"
+description = "Pythonic API for DeepSeek"
+authors = ["Linus Mixson <lmixson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
